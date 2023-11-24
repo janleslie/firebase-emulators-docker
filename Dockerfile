@@ -21,7 +21,6 @@ ADD ./emulators /root/.cache/firebase/emulators
 ADD static/* .
 ADD entrypoint.sh .
 
-# Auth
 EXPOSE 9099
 EXPOSE 8080
 EXPOSE 9000
