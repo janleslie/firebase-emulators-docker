@@ -30,33 +30,51 @@
     "rules": "storage.rules"
   },
   "emulators": {
-    "auth": {
-      "port": 9099
-    },
-    "functions": {
-      "port": 5001
-    },
+    
     "firestore": {
-      "port": 8080
-    },
-    "database": {
-      "port": 9000
-    },
-    "hosting": {
-      "port": 5000
-    },
-    "pubsub": {
-      "port": 8085
+      "enabled": true,
+      "port": 8484,
+      "host": "0.0.0.0"
     },
     "storage": {
-      "port": 9199
-    },
-    "eventarc": {
-      "port": 9299
+      "enabled": true,
+      "port": 9199,
+      "host": "0.0.0.0"
     },
     "ui": {
       "enabled": true,
-      "port": 4000
+      "port": 4000,
+      "host": "0.0.0.0"
+    },
+    "hub": {
+      "enabled": true,
+      "host": "0.0.0.0",
+      "port": 4400
+    },
+    "logging": {
+      "enabled": true,
+      "host": "0.0.0.0",
+      "port": 4500
+    },
+    "functions": {
+      "enabled": true,
+      "port": 5001,
+      "host": "0.0.0.0"
+    },
+    "auth": {
+      "enabled": true,
+      "port": 9099,
+      "host": "0.0.0.0"
+    },
+    "pubsub": {
+      "enabled": true,
+      "port": 8085,
+      "host": "0.0.0.0"
+    },
+    "hosting": {
+      "enabled": true,
+      "port": 5050,
+      "host": "0.0.0.0"
     },
     "singleProjectMode": true
   },
